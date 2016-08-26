@@ -1,0 +1,36 @@
+body {
+  max-height:300px;
+  background: black;
+}
+.container-red-btn {
+  margin:50% auto;
+}
+.red-btn-around {
+  background:gray;
+  width:200px;
+  height:190px;
+  border-radius:50%;
+  margin:auto;
+  border: 25px outset gray;
+
+}
+#red-btn {
+  display:block;
+  background: #ee0000;
+  font-size:2em;
+  border-radius: 50%;
+  border: 10px outset  red ;
+  height:inherit;
+  width:inherit;
+  color: white;
+  font-style: "Verdana", sans-sarif;
+  margin:auto;
+}
+#red-btn:hover{
+  cursor:pointer;
+}
+#red-btn:active {
+  border: 10px inset darkred;
+  background: #ee0000;
+  color: lightgray;
+}
